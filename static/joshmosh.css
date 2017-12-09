@@ -1,0 +1,256 @@
+.tabs-menu {
+  display: block;
+  width: 10%;
+  margin-left: 3vh;
+  float: left;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.tabs-content {
+  width: 90%;
+  margin-left: 37px;
+  float: right;
+}
+
+.tabs {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.tab-pane {
+  height: 90vh;
+  border-style: none none none solid;
+  border-left-width: 1px;
+  border-left-color: rgba(0, 0, 0, .13);
+}
+
+.tab-link {
+  display: block;
+  width: 100%;
+  margin-bottom: 1vh;
+  border-left: 5px solid transparent;
+  -webkit-transition: border 400ms ease, background-color 500ms ease, -webkit-transform 400ms ease;
+  transition: border 400ms ease, background-color 500ms ease, -webkit-transform 400ms ease;
+  transition: border 400ms ease, transform 400ms ease, background-color 500ms ease;
+  transition: border 400ms ease, transform 400ms ease, background-color 500ms ease, -webkit-transform 400ms ease;
+  text-transform: uppercase;
+}
+
+.tab-link:hover {
+  border-style: none none none solid;
+  border-left-width: 5px;
+  border-left-color: #3981d1;
+}
+
+.tab-link.w--current {
+  display: block;
+  margin-left: 15px;
+  padding-right: 10px;
+  padding-left: 15px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  border-left: 5px solid transparent;
+  background-color: #3981d1 !important;
+  -webkit-transition: border 250ms ease, opacity 200ms ease, margin 500ms ease, -webkit-transform 500ms ease;
+  transition: border 250ms ease, opacity 200ms ease, margin 500ms ease, -webkit-transform 500ms ease;
+  transition: border 250ms ease, transform 500ms ease, opacity 200ms ease, margin 500ms ease;
+  transition: border 250ms ease, transform 500ms ease, opacity 200ms ease, margin 500ms ease, -webkit-transform 500ms ease;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #fff;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.tab-link-2:hover {
+  background-color: #c8c8c8;
+}
+
+.tab-link-2.w--current {
+  border: 0px none transparent;
+  background-color: rgba(0, 0, 0, .35);
+  -webkit-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+}
+
+.text-block {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 16px;
+}
+
+.text-block-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+  text-align: left;
+}
+
+.text-block-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.text-block-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.text-block-5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.bold-text {
+  margin-left: 1px;
+}
+
+.tabs-2 {
+  display: block;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.tabs-menu-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  float: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.div-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.tab-pane-2 {
+  display: block;
+  width: 90%;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.tabs-content-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.tabs-menu-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.tabs-3 {
+  margin-left: 5vh;
+}
+
+.section {
+  width: 90%;
+}
